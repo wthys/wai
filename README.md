@@ -14,3 +14,14 @@ optional arguments:
   -h, --help     show this help message and exit
   -v, --verbose  Be verbose
 ```
+
+Why?
+----
+
+- When you want to detect that your IP has changed but your DNS record has not.
+- When you want to detect that you are in a certain network.
+
+To do
+-----
+
+- Possibly bypass local DNS servers (like a local dnsmasq)
